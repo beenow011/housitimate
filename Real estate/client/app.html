@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Houstimate</title>
+</head>
+
+<body>
+    <div class="text">
+        <a>Houstimate</a>
+    </div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+
+    <div class="text2">
+        <a>Proper price for your dream house</a>
+    </div>
+    <div class="img">
+        <figure><img src="png-image.png" alt=""></figure>
+    </div>
+    <div class="back">
+        <div class="form1">
+            <img src="door1.jpg" id="myImage" alt="">
+            <input type=" button" onclick="changeImage()" value="Click here" class="clk">
+
+
+            <div class="main" id="myDiv">
+                <form class="form">
+                    <h2 class="areatxt">Area (Square Feet)</h2>
+                    <input class="area" type="text" id="uiSqft" class="floatLabel" name="Squareft" value="1000">
+                    <h2>BHK</h2>
+                    <div class="switch-field opt1">
+                        <input type="radio" id="radio-bhk-1" name="uiBHK" value="1" />
+                        <label for="radio-bhk-1">1</label>
+                        <input type="radio" id="radio-bhk-2" name="uiBHK" value="2" checked />
+                        <label for="radio-bhk-2">2</label>
+                        <input type="radio" id="radio-bhk-3" name="uiBHK" value="3" />
+                        <label for="radio-bhk-3">3</label>
+                        <input type="radio" id="radio-bhk-4" name="uiBHK" value="4" />
+                        <label for="radio-bhk-4">4</label>
+                        <input type="radio" id="radio-bhk-5" name="uiBHK" value="5" />
+                        <label for="radio-bhk-5">5</label>
+                    </div>
+                </form>
+                <form class="form">
+                    <h2>Bath</h2>
+                    <div class="switch-field">
+                        <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1" />
+                        <label for="radio-bath-1">1</label>
+                        <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked />
+                        <label for="radio-bath-2">2</label>
+                        <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3" />
+                        <label for="radio-bath-3">3</label>
+                        <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4" />
+                        <label for="radio-bath-4">4</label>
+                        <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5" />
+                        <label for="radio-bath-5">5</label>
+                    </div>
+                    <h2 class="loctxt">Location</h2>
+                    <div>
+                        <select class="location" name="" id="uiLocations">
+                            <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+                            <option>Electronic City</option>
+                            <option>Rajaji Nagar</option>
+                        </select>
+                    </div>
+                    <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+                    <div id="uiEstimatedPrice" class="result">
+                        <h2></h2>
+                    </div>
+            </div>
+        </div>
+        <div class="text3">
+            <p>Know the estimated price of your dream house.</p>
+        </div>
+
+    </div>
+
+    </div>
+    <div class="end">
+        <h1>About us</h1>
+        <div class="black"></div>
+        <div class="photos1">
+            <img src="amogh.jpg" alt="" srcset="" class="amogh">
+            <img src="abhi.jpg" alt="" srcset="" class="abhi">
+            <img src="akhil.jpg" alt="" srcset="" class="akhil">
+            <img src="dinesh.jpg" alt="" srcset="" class="dinesh">
+            <img src="avi.jpg" alt="" srcset="">
+            <img src="anil.jpg" alt="" srcset="">
+
+        </div>
+        <div class="bio">
+            <div class="am">
+                <h3>Amogh</h3>
+                <p>NIE Mysore, II Year CSE</p>
+            </div>
+            <div class="ab">
+                <h3>Abhinav</h3>
+
+                <p>NIE Mysore, II Year CSE</p>
+            </div>
+            <div class="akh">
+                <h3>Akhil</h3>
+                <p>NIE Mysore, II Year CSE</p>
+            </div>
+            <div class="din">
+                <h3>Dinesh</h3>
+                <p>NIE Mysore, II Year CSE</p>
+            </div>
+            <div class="avi">
+                <h3>Avi Kumar</h3>
+                <p>NIE Mysore, II Year CSE</p>
+            </div>
+            <div class="ani">
+                <h3>Anil</h3>
+                <p>NIE Mysore, II Year CSE</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
